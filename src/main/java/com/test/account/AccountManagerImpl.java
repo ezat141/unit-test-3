@@ -20,7 +20,7 @@ public class AccountManagerImpl implements AccountManager {
                 return "maximum credit exceeded";
             }
         }
-//        customer.setBalance(expectedBalance);
+        customer.setBalance(expectedBalance);
 
         return "success";
     }
