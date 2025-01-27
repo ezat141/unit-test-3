@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bd0c95f-50bd-4b2b-bd73-13f232f72130" name="Changes" comment="unit-test-3-solution-&gt; AccountManagerTest">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/store/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/store/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/store/StoreImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/store/StoreTest.java" afterDir="false" />
+    <list default="true" id="0bd0c95f-50bd-4b2b-bd73-13f232f72130" name="Changes" comment="unit-test-3 StoreTest">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/store/MockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/store/StoreMockTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/AccountManagerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,39 +46,92 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.AccountManagerTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/EBI/spring-boot-3-pdfs/unit-test-3/src/main/java/com/test/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.AccountManagerTest.executor": "Run",
+    "JUnit.MockTest.executor": "Run",
+    "JUnit.MockTest.test1.executor": "Run",
+    "JUnit.StoreMockTest.buyProductShouldWithdrawAccountFromCustomerAndDecreaseStock.executor": "Run",
+    "JUnit.StoreMockTest.executor": "Run",
+    "JUnit.StoreTest.buyProductShouldGivePaymentError.executor": "Run",
+    "JUnit.StoreTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/EBI/spring-boot-3-pdfs/unit-test-3/src/main/java/com/test/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.test.account" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StoreTest">
-    <configuration name="AccountManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MockTest">
+    <configuration name="MockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-test-3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.account.*" />
+          <option name="PATTERN" value="com.test.store.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.test.account" />
-      <option name="MAIN_CLASS_NAME" value="com.test.account.AccountManagerTest" />
+      <option name="PACKAGE_NAME" value="com.test.store" />
+      <option name="MAIN_CLASS_NAME" value="com.test.store.MockTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-test-3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.store.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.store" />
+      <option name="MAIN_CLASS_NAME" value="com.test.store.MockTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StoreMockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-test-3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.store.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.store" />
+      <option name="MAIN_CLASS_NAME" value="com.test.store.StoreMockTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StoreMockTest.buyProductShouldWithdrawAccountFromCustomerAndDecreaseStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-test-3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.store.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.store" />
+      <option name="MAIN_CLASS_NAME" value="com.test.store.StoreMockTest" />
+      <option name="METHOD_NAME" value="buyProductShouldWithdrawAccountFromCustomerAndDecreaseStock" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -103,8 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MockTest" />
+        <item itemvalue="JUnit.MockTest.test1" />
+        <item itemvalue="JUnit.StoreMockTest.buyProductShouldWithdrawAccountFromCustomerAndDecreaseStock" />
+        <item itemvalue="JUnit.StoreMockTest" />
         <item itemvalue="JUnit.StoreTest" />
-        <item itemvalue="JUnit.AccountManagerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +178,7 @@
       <option name="presentableId" value="Default" />
       <updated>1737921365660</updated>
       <workItem from="1737921366751" duration="8005000" />
-      <workItem from="1737974670555" duration="2271000" />
+      <workItem from="1737974670555" duration="5709000" />
     </task>
     <task id="LOCAL-00001" summary="unit-test">
       <option name="closed" value="true" />
@@ -151,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737930926642</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="unit-test-3 StoreTest">
+      <option name="closed" value="true" />
+      <created>1737977175111</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737977175111</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +222,7 @@
     <MESSAGE value="unit-test" />
     <MESSAGE value="happy scenario" />
     <MESSAGE value="unit-test-3-solution-&gt; AccountManagerTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="unit-test-3-solution-&gt; AccountManagerTest" />
+    <MESSAGE value="unit-test-3 StoreTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="unit-test-3 StoreTest" />
   </component>
 </project>
